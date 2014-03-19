@@ -10,8 +10,7 @@ to maintainers.
 ## Git branches
 
 The `master` branch is the public-facing stable branch. It should always be in a sensible state, ideally sitting at a
-release tag. The README, and the code people browse are on this branch, so it's better if it makes sense in the context
-of the latest released version.
+release tag.
 
 The `develop` branch is the main line of development. Features should be merged in to this branch, and pull-requests
 should be based on this branch. It's ok to fix small bugs and the like on this branch, but anything larger should happen

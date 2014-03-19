@@ -7,7 +7,8 @@ One of the central components of Gorilla is its renderer. It is the renderer tha
 when they are output, so it is ultimately responsible for things like plotting graphs, drawing tables and
 matrices etc. as well as showing more mundane values like numbers and lists. You don't need to understand how the
 renderer works to use Gorilla, but you might be interested anyway.
-Gorilla's renderer is easily extensible, meaning you can customise Gorilla to show Clojure values in the way that's most
+Gorilla's renderer is [very flexible](https://vimeo.com/89529751) and [easily extensible](https://vimeo.com/89532785),
+meaning you can customise Gorilla to show Clojure values in the way that's most
 useful to you. This document will explain what you need to know to do that.
 
 First, we'll look at the idea behind the renderer, then we'll work through the various stages in the rendering process.

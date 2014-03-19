@@ -56,8 +56,8 @@ were generated. Gorilla offers nREPL's autocomplete function, hit `ctrl+space` t
 
 One of the most handy features of Gorilla is the ability to plot graphs. The plotting library
 gorilla-plot is integrated into Gorilla and is always available without
-explicitly including it as a dependency in your `project.clj`. Full documentation for gorilla-plot is available in the
-doc directory (coming soon!), but to get you started, let's give a short summary.
+explicitly including it as a dependency in your `project.clj`. Full documentation for gorilla-plot is available at the
+[plotting](/plotting.html) page (coming soon!), but to get you started, let's give a short summary.
 
 There are five functions that should cover many plotting needs. These functions are in the `gorilla-plot.core`
 namespace, so you will need to `use` or `require` it before starting. The functions are:
@@ -73,6 +73,21 @@ These functions take many options, look at the detailed docs for more help.
 
 There's a [short video](https://vimeo.com/87139900) talking a little more about how the plots work, and how they try and
 fit nicely with the Clojure way of thinking (plots are values) which might interest you.
+
+### Other kinds of output
+
+Plots aren't the only way that Gorilla can give you a more useful view into your Clojure values. There are a number of
+other built in functions to view data:
+
+- `table-view` in the `gorilla-repl.table` namespace let's you view lists-of-lists as tables. You can supply an
+  optional vector as a `:columns` argument to label the columns of the table.
+- `latex-view` in the `gorilla-repl.latex` namespace let's you view a string as its rendered LaTeX form.
+- `html-view` in the `gorilla-repl.html` namespace let's you view a string rendered as HTML.
+
+These built-in view functions are just the beginning though. Gorilla REPL has a very
+[flexible](https://vimeo.com/89529751), [extensible](https://vimeo.com/89532785) renderer so you can
+plug in new ways of viewing values. If your favourite library doesn't have the viewers for the data that you want, then
+file a feature request, or even better write some code and contribute it!
 
 
 ### Editor commands

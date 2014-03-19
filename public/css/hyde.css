@@ -86,6 +86,11 @@ a.sidebar-nav-item:focus {
 }
 
 
+.copyright {
+    font-size: 12px;
+    color: dimgray;
+}
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
@@ -168,6 +173,16 @@ a.sidebar-nav-item:focus {
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
     color: #6a9fb5;
+}
+
+/* Steelblue */
+.theme-base-sb .sidebar {
+    background-color: #4682b4;
+}
+
+.theme-base-sb .content a,
+.theme-base-sb .related-posts li a:hover {
+    color: #4682b4;
 }
 
 /* Magenta */
