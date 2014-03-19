@@ -9,3 +9,6 @@ url:              http://gorilla-repl.org
 author:
   name:           'Jony Hudson'
   url:            http://j-star.org
+
+gems:
+  - jekyll-mentions
