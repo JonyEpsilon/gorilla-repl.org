@@ -79,10 +79,10 @@ fit nicely with the Clojure way of thinking (plots are values) which might inter
 Plots aren't the only way that Gorilla can give you a more useful view into your Clojure values. There are a number of
 other built in functions to view data:
 
-- `table-view` in the `gorilla-repl.table` namespace let's you view lists-of-lists as tables. You can supply an
+- `table-view` in the `gorilla-repl.table` namespace lets you view lists-of-lists as tables. You can supply an
   optional vector as a `:columns` argument to label the columns of the table.
-- `latex-view` in the `gorilla-repl.latex` namespace let's you view a string as its rendered LaTeX form.
-- `html-view` in the `gorilla-repl.html` namespace let's you view a string rendered as HTML.
+- `latex-view` in the `gorilla-repl.latex` namespace lets you view a string as its rendered LaTeX form.
+- `html-view` in the `gorilla-repl.html` namespace lets you view a string rendered as HTML.
 
 These built-in view functions are just the beginning though. Gorilla REPL has a very
 [flexible](https://vimeo.com/89529751), [extensible](https://vimeo.com/89532785) renderer so you can
