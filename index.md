@@ -43,6 +43,7 @@ In order of first commit, contributors to date are:
 - @JonyEpsilon
 - @maio
 - @cldellow
+- @scottdw
 
 ## Licence
 
