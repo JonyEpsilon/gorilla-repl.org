@@ -22,7 +22,9 @@ elbow.
 ## Learning more
 
 The first thing you should do is read the [getting started](/start.html) page which runs through the installation of
-Gorilla and its basic operation. Gorilla has a very flexible renderer, and if you start using Gorilla frequently you
+Gorilla and its basic operation. After you've made your first Gorilla worksheet you can easily share it with the world,
+for free, using the [online viewer](/viewer.html). Gorilla has a very flexible renderer, and if you start using Gorilla
+frequently you
 will probably want to learn how it works. You can find all the information you need on the [renderer](/renderer.html)
 page. There are a few videos which discuss various aspect of Gorilla in depth, you can find them on the
 [videos](/videos.html) page. If you really get into Gorilla, and want to contribute some code then you'll find some
