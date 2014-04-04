@@ -21,6 +21,11 @@ You can also share worksheets in GitHub gists. In this case just use the link:
 http://viewer.gorilla-repl.org/view.html?source=gist&id=<>
 ```
 
+## Limitations
+
+- You can only access 60 worksheets per hour, coming from GitHub's API limits.
+- Worksheets must be under 1MB, again a GitHub API limitation.
+
 ## Some tips for sharing worksheets
 
 Taking care of a couple of details will make it easier for others to run your worksheets:
