@@ -12,7 +12,7 @@ http://viewer.gorilla-repl.org/view.html?source=github&user=<>&repo=<>&path=<>
 
 replacing the <>s with appropriate values. The path variable is the path inside the repo to the worksheet.
 That's it - your worksheet is now available online!
-[This link](http://viewer.gorilla-repl.org/view.html?source=github&user=JonyEpsilon&repo=gorilla-repl&path=ws/graph-examples.clj)
+[This link](http://viewer.gorilla-repl.org/view.html?source=github&user=JonyEpsilon&repo=gorilla-test&path=ws/graph-examples.clj)
 is an example of a shared Gorilla worksheet.
 
 You can also share worksheets in GitHub gists. In this case just use the link:
