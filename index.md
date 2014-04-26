@@ -46,6 +46,7 @@ In order of first commit, contributors to date are:
 - @maio
 - @cldellow
 - @scottdw
+- @shriphani
 
 ## Licence
 
