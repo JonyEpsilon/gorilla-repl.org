@@ -47,6 +47,8 @@ In order of first commit, contributors to date are:
 - @cldellow
 - @scottdw
 - @shriphani
+- @gfredericks
+- @modellurgist
 
 ## Licence
 
