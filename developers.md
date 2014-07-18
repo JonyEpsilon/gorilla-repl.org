@@ -40,3 +40,4 @@ unmerged branches that will definitely no longer be used should also be deleted.
 - `lein deploy clojars`, first gorilla-repl and then lein-gorilla, and promote.
 - Switch back to develop before you forget. (Both repos).
 - Update the version in start.md of gorilla-repl.org (three places).
+- Update the `latest-version` var on the updates web-page.
