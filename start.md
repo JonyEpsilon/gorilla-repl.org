@@ -14,17 +14,17 @@ Gorilla is packaged as a Leiningen plugin. To use Gorilla in one of your Leining
 the `:plugins` section of that project's `project.clj` file:
 
 ```clojure
-[lein-gorilla "0.2.0"]
+[lein-gorilla "0.3.1"]
 ```
 Your completed `project.clj` file might look something like this:
 
 ```clojure
 (defproject gorilla-test "0.1.0-SNAPSHOT"
-  :description "A test project for the Gorilla REPL."
-  :dependencies [[org.clojure/clojure "1.5.1"]]
+  :description "A test project for Gorilla REPL."
+  :dependencies [[org.clojure/clojure "1.6.0"]]
   :main ^:skip-aot gorilla-test.core
   :target-path "target/%s"
-  :plugins [[lein-gorilla "0.2.0"]]
+  :plugins [[lein-gorilla "0.3.1"]]
   :profiles {:uberjar {:aot :all}})
 ```
 
@@ -82,16 +82,22 @@ These built-in view functions are just the beginning though. Gorilla REPL has a 
 plug in new ways of viewing values. If your favourite library doesn't have the viewers for the data that you want, then
 file a feature request, or even better write some code and contribute it!
 
+A feature worth mentioning here is value-copy-and-paste. Although Gorilla shows some values (like graphs, tables) with
+fancy formatting, the underlying Clojure value is always there to be used. If you alt-click on any output in Gorilla
+it will give you the readable Clojure value to work with (if it exists).
 
 ### Editor commands
 
-Before we can go much further we will need to introduce *editor commands*. Editor commands are usually a sequence of two
-keypresses. On Windows these are of the form `alt+a alt+b` and on other platforms they are of the form `ctrl+a ctrl+b`.
-This document writes them in the format suitable for Mac - if you're on Windows replace the `ctrl`s with `alt`s.
+Before we can go much further we will need to introduce *editor commands*. You don't need them right now, but you can
+see all of the editor commands by hitting `ctrl+g` twice in succession (`alt-g` on Windows and Linux, see below), or
+clicking on the feint menu icon in the top right hand corner of the Gorilla window. Hopefully they are all
+self-explanatory, or at least you can figure them out easily enough.
 
-You don't need them right now, but you can see all of the editor commands by hovering over the feint question mark in
-the top right hand corner of the
-Gorilla window. Hopefully they are all self-explanatory, or at least you can figure them out easily enough. An attempt
+You'll probably want to use keyboard shortcuts to issue the editor commands if you use Gorilla much: they are usually a
+sequence of two keypresses. On Windows these are of the form `alt+a alt+b` and on other platforms they are of the form
+`ctrl+a ctrl+b`.
+This document writes them in the format suitable for Mac - if you're on Windows/Linux replace the `ctrl`s with `alt`s.
+An attempt
 has been made to make sure the commands work across popular browsers and operating systems (which is not as easy as you
 might think). The one exception is the autocomplete command which doesn't work on Firefox on the Mac, as it
 steals `ctrl+space` for its own use, [somewhat controversially](https://bugzilla.mozilla.org/show_bug.cgi?id=435164).
@@ -113,15 +119,14 @@ This is an inline formula, @@\sin(x)@@, and this is on its own line:
 $$\int_0^{2\pi}\sin^2(x) \textrm{d}x$$
 ```
 
-**Note:** currently you will need to be online in order for LaTeX to render properly. Hopefully this will be resolved soon.
-See issue #45 for more details.
+**Note:** currently you will need to be online in order for LaTeX to render properly.
 
 ### Worksheet files
 
 You can save the contents of a window to a worksheet file. This will include everything you see, the code, the output,
 graphs, notes and mathematics, the lot. To save a file just hit `ctrl+g ctrl+s`. If you haven't already saved the file it will
 prompt for a filename, which is given relative to the project. To load a file, use
-`ctrl+g ctrl+l` (note that Gorilla files must end in `.clj` or `.cljw` to be loaded. By convention, I often find it
+`ctrl+g ctrl+l` (note that Gorilla files must end in `.clj` or `.cljw` to be loaded). By convention, I often find it
 convenient to store my worksheets in a directory called `ws` at the root
 of the project (alongside `src` etc) but you, of course, can store them wherever you want. A neat feature is that these
 worksheet files are just plain Clojure files with some magic comments. This means it's really easy to interactively
