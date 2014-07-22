@@ -10,8 +10,8 @@ The rest of these docs assume that you're familiar with the basics of Clojure, a
 [the Leiningen website](http://leiningen.org) and get it installed first. It's a really nice tool that makes things very
 easy!
 
-Gorilla is packaged as a Leiningen plugin. To use Gorilla you can do one of two things. If you just want to use Gorilla
-in a particular project, then add the following to the `:plugins` section of that project's `project.clj` file:
+Gorilla is packaged as a Leiningen plugin. To use Gorilla in one of your Leiningen projects, then add the following to
+the `:plugins` section of that project's `project.clj` file:
 
 ```clojure
 [lein-gorilla "0.2.0"]
@@ -27,16 +27,9 @@ Your completed `project.clj` file might look something like this:
   :plugins [[lein-gorilla "0.2.0"]]
   :profiles {:uberjar {:aot :all}})
 ```
-The other way to use Gorilla is to add it to your Leiningen user profile - this will make it available everywhere, even
-outside of Leiningen projects. Your `~/.lein/profiles.clj` might look like:
 
-```clojure
-{:user {:plugins [[lein-gorilla "0.2.0"]]}}
-```
-
-That's it. You should now be able to run `lein gorilla` - from within the project directory, if you installed it as a
-project plugin, or anywhere if you specified it in your user profile - and get started. If you want to run Gorilla on a
-different port than the default (8990) you can run `lein gorilla :port 8999` or similar.
+That's it. You should now be able to run `lein gorilla` from within the project directory and get started. If you want
+to run Gorilla on a different port than the default (8990) you can run `lein gorilla :port 8999` or similar.
 
 
 ## Usage
@@ -57,7 +50,7 @@ were generated. Gorilla offers nREPL's autocomplete function, hit `ctrl+space` t
 One of the most handy features of Gorilla is the ability to plot graphs. The plotting library
 gorilla-plot is integrated into Gorilla and is always available without
 explicitly including it as a dependency in your `project.clj`. Full documentation for gorilla-plot is available at the
-[plotting](/plotting.html) page (coming soon!), but to get you started, let's give a short summary.
+[plotting](/plotting.html) page, but to get you started, let's give a short summary.
 
 There are five functions that should cover many plotting needs. These functions are in the `gorilla-plot.core`
 namespace, so you will need to `use` or `require` it before starting. The functions are:
@@ -127,8 +120,9 @@ See issue #45 for more details.
 
 You can save the contents of a window to a worksheet file. This will include everything you see, the code, the output,
 graphs, notes and mathematics, the lot. To save a file just hit `ctrl+g ctrl+s`. If you haven't already saved the file it will
-prompt for a filename, which is given relative to the project/where you invoked `lein gorilla`. To load a file, use
-`ctrl+g ctrl+l`. By convention, I often find it convenient to store my worksheets in a directory called `ws` at the root
+prompt for a filename, which is given relative to the project. To load a file, use
+`ctrl+g ctrl+l` (note that Gorilla files must end in `.clj` or `.cljw` to be loaded. By convention, I often find it
+convenient to store my worksheets in a directory called `ws` at the root
 of the project (alongside `src` etc) but you, of course, can store them wherever you want. A neat feature is that these
 worksheet files are just plain Clojure files with some magic comments. This means it's really easy to interactively
 develop your code in Gorilla, and then turn it into a library when it stabilises.
