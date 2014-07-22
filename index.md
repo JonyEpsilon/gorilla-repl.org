@@ -26,7 +26,9 @@ Gorilla and its basic operation. After you've made your first Gorilla worksheet 
 for free, using the [online viewer](/viewer.html). Gorilla has a very flexible renderer, and if you start using Gorilla
 frequently you
 will probably want to learn how it works. You can find all the information you need on the [renderer](/renderer.html)
-page. There are a few videos which discuss various aspect of Gorilla in depth, you can find them on the
+page. There's a page with some boring but useful information about Gorilla's
+[configuration options](/configuration.html). There are a few videos which
+discuss various aspect of Gorilla in depth, you can find them on the
 [videos](/videos.html) page. If you really get into Gorilla, and want to contribute some code then you'll find some
 useful notes on the [developers](/developers.html) page.
 

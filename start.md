@@ -28,9 +28,7 @@ Your completed `project.clj` file might look something like this:
   :profiles {:uberjar {:aot :all}})
 ```
 
-That's it. You should now be able to run `lein gorilla` from within the project directory and get started. If you want
-to run Gorilla on a different port than the default (8990) you can run `lein gorilla :port 8999` or similar.
-
+That's it. You should now be able to run `lein gorilla` from within the project directory and get started.
 
 ## Usage
 
@@ -139,3 +137,6 @@ You might be used to using `doc` and `source` at the command-line REPL. By defau
 `user` namespace when Gorilla starts, but if you'd like to use them then you just need to run `(use 'clojure.repl)` to
 bring them into scope.
 
+### Advanced configuration
+
+You can see what can be customised in Gorilla on the [configuration](/configuration.html) page.
