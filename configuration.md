@@ -27,7 +27,7 @@ appropriate. Your `profiles.clj` file could look like:
         "command:worksheet:newBelow" "ctrl+b ctrl+t"
         "command:worksheet:newAbove" "ctrl+b ctrl+q"
       }
-      :load-scan-excude #{".git" ".svn"}}}}
+      :load-scan-exclude #{".git" ".svn"}}}}
 ```
 
 The supported options are:
