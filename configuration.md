@@ -11,6 +11,9 @@ You can pass configuration options to Gorilla on the Leiningen command line, for
 would change the port the web-app runs on to 8999. Supported options are:
 
 - `:port` : the port that the web-app runs on. Defaults to 8990.
+- `:ip` : the IP address to bind to. Defaults to 127.0.0.1, which will allow only local access. To allow other
+  computers (that you trust!) on the network access to Gorilla, bind this to a public IP address, or 0.0.0.0 to
+  bind to all addresses.
 - `:nrepl-port` : the port that the nREPL server will be started up on. Defaults to a free port.
  
 
