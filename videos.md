@@ -26,10 +26,20 @@ of things the renderer can do.
 
 <iframe src="//player.vimeo.com/video/89529751" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## The Gorilla REPL renderer part 2: extensibility
+## What are worksheets good for anyway?
 
-This video looks in detail at how to extend the renderer. It will be useful to watch this in conjunction with reading
-the [renderer documentation](/renderer.html).
+A video prompted by some discussions at the London Clojure Unconference, July 2014. I show a few examples of what I
+think the worksheet interface of Gorilla (and others) is useful for.
 
-<iframe src="//player.vimeo.com/video/89532785" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/101924622" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+## Getting started in Clojure with IntelliJ, Cursive, and Gorilla
+
+This video goes through, step-by-step, how to setup a productive Clojure development environment from scratch.
+The first part looks at getting the software installed and running.
+
+<iframe src="//player.vimeo.com/video/103808402" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+And the second part looks at the sort of workflow you could use with this environment.
+
+<iframe src="//player.vimeo.com/video/103812557" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

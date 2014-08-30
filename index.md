@@ -23,12 +23,14 @@ elbow.
 
 The first thing you should do is read the [getting started](/start.html) page which runs through the installation of
 Gorilla and its basic operation. After you've made your first Gorilla worksheet you can easily share it with the world,
-for free, using the [online viewer](/viewer.html). Gorilla has a very flexible renderer, and if you start using Gorilla
-frequently you
+for free, using the [online viewer](/viewer.html). One of the most useful features of Gorilla is its plotting library.
+There is some documentation for it on the [plotting](/plotting.html) page. Beyond the built-in plots, Gorilla has a very
+flexible renderer, and if you start using Gorilla frequently you
 will probably want to learn how it works. You can find all the information you need on the [renderer](/renderer.html)
-page. There's a page with some boring but useful information about Gorilla's
-[configuration options](/configuration.html). There are a few videos which
-discuss various aspect of Gorilla in depth, you can find them on the
+page. If you want to integrate Gorilla into your workflow, then there is some information on how to use Gorilla
+alongside [other editors/IDEs](/editors.html). There's a page with some boring but useful information about Gorilla's
+[configuration options](/configuration.html). If you have time on your hands, there are a few videos which
+discuss various aspect of Gorilla in depth, and you can find them on the
 [videos](/videos.html) page. If you really get into Gorilla, and want to contribute some code then you'll find some
 useful notes on the [developers](/developers.html) page.
 

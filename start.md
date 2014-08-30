@@ -137,6 +137,11 @@ You might be used to using `doc` and `source` at the command-line REPL. By defau
 `user` namespace when Gorilla starts, but if you'd like to use them then you just need to run `(use 'clojure.repl)` to
 bring them into scope.
 
+### Other editors
+
+Gorilla works well alongside other editors and there's [a page](/editors.html) with hints on setting up your favourite
+environment to work well with Gorilla.
+
 ### Advanced configuration
 
 You can see what can be customised in Gorilla on the [configuration](/configuration.html) page.
