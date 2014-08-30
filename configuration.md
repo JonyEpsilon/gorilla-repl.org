@@ -10,7 +10,7 @@ This page lists the configuration options that you can use to customise Gorilla.
 You can pass configuration options to Gorilla on the Leiningen command line, for example `lein gorilla :port 8999`
 would change the port the web-app runs on to 8999. Supported options are:
 
-- `:port` : the port that the web-app runs on. Defaults to 8990.
+- `:port` : the port that the web-app runs on. Defaults to an auto-selected free port.
 - `:ip` : the IP address to bind to. Defaults to `127.0.0.1`, which will allow only local access. To allow other
   computers (that you trust!) on the network access to Gorilla, bind this to a public IP address, or `0.0.0.0` to
   bind to all addresses.
