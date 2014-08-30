@@ -24,13 +24,11 @@ profile. You can add options either in your `~/.lein/profiles.clj` file, or in t
 appropriate. Your `profiles.clj` file could look like:
 
 ```clojure
-{:user {
-    :gorilla-options {
-      :keymap {
-        "command:worksheet:newBelow" "ctrl+b ctrl+t"
-        "command:worksheet:newAbove" "ctrl+b ctrl+q"
-      }
-      :load-scan-exclude #{".git" ".svn"}}}}
+{:user
+ {:gorilla-options
+  {:keymap {"command:worksheet:newBelow" "ctrl+b ctrl+t"
+            "command:worksheet:newAbove" "ctrl+b ctrl+q"}
+   :load-scan-exclude #{".git" ".svn"}}}}
 ```
 
 The supported options are:
