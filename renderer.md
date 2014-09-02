@@ -57,7 +57,7 @@ The `render` function takes the value and returns its rendered representation. W
 representation below, but it might be something like:
 
 ```clojure
-{:type :html :contents "<span class='clj-long'>3</span>" :value "3"}
+{:type :html :content "<span class='clj-long'>3</span>" :value "3"}
 ```
 This rendered form will tell the client that the value should be rendered as an HTML fragment, and gives the contents of
 that fragment. Note that it also includes a readable representation of the value, as would be obtained from `pr`ing it,
@@ -74,7 +74,7 @@ fragment representing the list:
 
 ```clojure
 {:type :html
- :contents "<span class='clj-list'>[</span><span class='clj-long'>1</span> ... <span class='clj-list'>]</span>"
+ :content "<span class='clj-list'>[</span><span class='clj-long'>1</span> ... <span class='clj-list'>]</span>"
  :value "[1 2 3]"}
 ```
 This is nice and simple, and works well in this case, but it has a number of problems:
@@ -120,7 +120,7 @@ For reference, here is a specification of the rendered representation. A valid v
 one of:
 
 ```clojure
-{:type :html :contents "some html" :value "pr'ed value"}
+{:type :html :content "some html" :value "pr'ed value"}
 ```
 This is the simplest, representing a raw HTML fragment that represents the value.
 
@@ -131,7 +131,7 @@ This represents a Vega visualisation. `<<vega spec>>` should be a value that, wh
 spec.
 
 ```clojure
-{:type :latex :contents "some latex" :value "pr'ed value"}
+{:type :latex :content "some latex" :value "pr'ed value"}
 ```
 Represents a fragment of LaTeX. Will be displayed inline. You do not need the MathJAX delimiters ($$ or @@).
 
