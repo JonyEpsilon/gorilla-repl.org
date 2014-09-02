@@ -40,5 +40,6 @@ way (see the CIDER readme for more details).
 
 ## Vim
 
-I am told that Gorilla works with VIM and fireplace, but haven't used it myself. If anyone wants to contribute some
-notes, they'd be very welcome :-)
+I am told that Gorilla works with VIM and fireplace, but haven't used it myself. Fireplace uses `cider-nrepl` so the
+instructions above for Emacs should be useful. If anyone wants to contribute some detailed notes, they'd be very
+welcome :-)
