@@ -14,7 +14,7 @@ Gorilla is packaged as a Leiningen plugin. To use Gorilla in one of your Leining
 the `:plugins` section of that project's `project.clj` file:
 
 ```clojure
-[lein-gorilla "0.3.3"]
+[lein-gorilla "0.3.4"]
 ```
 Your completed `project.clj` file might look something like this:
 
@@ -24,7 +24,7 @@ Your completed `project.clj` file might look something like this:
   :dependencies [[org.clojure/clojure "1.6.0"]]
   :main ^:skip-aot gorilla-test.core
   :target-path "target/%s"
-  :plugins [[lein-gorilla "0.3.3"]]
+  :plugins [[lein-gorilla "0.3.4"]]
   :profiles {:uberjar {:aot :all}})
 ```
 
