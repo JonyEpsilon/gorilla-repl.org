@@ -119,6 +119,14 @@ $$\int_0^{2\pi}\sin^2(x) \textrm{d}x$$
 
 **Note:** currently you will need to be online in order for LaTeX to render properly.
 
+#### Spell checking
+Due to limititations of the underlying CodeMirror component, spell checking of the notes is currently not possible.
+A workarround is to save the report as a Clojure file and open it with an Clojure editor which supports spell checking.
+
+Emacs work very nice for this, as it has the 'ispell-comments-and-strings" command, which ignores the code blocks during the spell check. In order to have this working well, the document should be saved without the ouput. 
+
+Gorilla has the "clear-all-output" command, which removes all output from the document, so it can be easely saved without output.
+
 ### Worksheet files
 
 You can save the contents of a window to a worksheet file. This will include everything you see, the code, the output,
