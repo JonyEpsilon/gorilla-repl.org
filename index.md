@@ -44,7 +44,7 @@ need to use your initiative to figure out my contact details!
 Contributions, in the form of comments, criticism, bug reports, or code are all very welcome :-) If you've got an idea
 for a big change drop me an email so we can coordinate work.
 
-In order of first commit, code contributors to date are:
+In order of first commit, code and documentation contributors to date are:
 
 - @JonyEpsilon
 - @maio
@@ -61,7 +61,8 @@ In order of first commit, code contributors to date are:
 - @dasmoth
 - @behrica
 
-There are many others who have filed bugs, requested features, and contributed to the discussion. They've all made Gorilla REPL better in one way or another!
+There are many others who have filed bugs, requested features, and contributed to the discussion. They've all made
+Gorilla REPL better in one way or another!
 
 ## Licence
 
