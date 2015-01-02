@@ -18,8 +18,11 @@ is an example of a shared Gorilla worksheet.
 You can also share worksheets in GitHub gists. In this case just use the link:
 
 ```
-http://viewer.gorilla-repl.org/view.html?source=gist&id=<>
+http://viewer.gorilla-repl.org/view.html?source=gist&id=<>&filename=<>
 ```
+
+[Example](http://viewer.gorilla-repl.org/view.html?source=gist&id=5baef8ac0f42706e4940&filename=parser.clj)
+
 
 ## Limitations
 
