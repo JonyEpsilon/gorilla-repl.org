@@ -21,7 +21,8 @@ You can also share worksheets in GitHub gists. In this case just use the link:
 http://viewer.gorilla-repl.org/view.html?source=gist&id=<>&filename=<>
 ```
 
-[Example](http://viewer.gorilla-repl.org/view.html?source=gist&id=5baef8ac0f42706e4940&filename=parser.clj)
+If the gist only has a single file in it, then you can omit the filename parameter.
+[Example](http://viewer.gorilla-repl.org/view.html?source=gist&id=5baef8ac0f42706e4940)
 
 
 ## Limitations
