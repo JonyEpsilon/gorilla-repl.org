@@ -16,6 +16,10 @@ would change the port the web-app runs on to 8999. Supported options are:
   bind to all addresses.
 - `:nrepl-port` : the port that the nREPL server will be started up on. Defaults to a free port.
  
+In the case there is a firewall or proxy between your browser and a remote Gorilla repl, it might be possible that the websocket connection to the Gorilla repl is blocked. Gorilla uses websocket protocoll, which  is a rather new protocoll and lots of firewalls/proxies do not handle it correctly. The workarround for this is currently to create an ssh tunnel to the gorilla web application and access it via the tunnel. Like this teh websocket connection goes over the tunnel as well.
+Future versions of Gorilla repl might support secure websockets, which in general works better with firewalls/proxies.
+
+
 
 ### Configuration map options
 
