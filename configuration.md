@@ -16,7 +16,6 @@ would change the port the web-app runs on to 8999. Supported options are:
   bind to all addresses.
 - `:nrepl-port` : the port that the nREPL server will be started up on. Defaults to a free port.
  
-
 ### Configuration map options
 
 You can also pass in options in a Leiningen profile. Gorilla will look for a `:gorilla-options` key under the user

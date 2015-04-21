@@ -6,9 +6,9 @@ title: Privacy and personal information
 On the whole, we don't collect much in the way of information about our users, but for the sake of completeness we list
 here what we do do:
 
-- The `gorilla-repl.org` website, and the online viewer `viewer.gorilla-repl.org`, use http://gaug.es to keep access
-statistics. This means that a few cookies are sent to the gaug.es servers each time you visit a page, as well as your IP
-address and some information about your browser environment. gaug.es presents a summary of this information to us, with
+- The `gorilla-repl.org` website, and the online viewer `viewer.gorilla-repl.org`, use Google analytics to keep access
+statistics. This means that a few cookies are sent to the Google servers each time you visit a page, as well as your IP
+address and some information about your browser environment. Google presents a summary of this information to us, with
 no personally identifying information. We use this, mainly, to see how people are finding out about Gorilla REPL, and
 which parts of the website they find most interesting.
 

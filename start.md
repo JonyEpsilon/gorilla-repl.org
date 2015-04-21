@@ -152,6 +152,22 @@ bring them into scope.
 Gorilla works well alongside other editors and there's [a page](/editors.html) with hints on setting up your favourite
 environment to work well with Gorilla.
 
+### Server-side usage
+
+Many people find it useful to run Gorilla on a server. As all of Gorilla's communication happens over HTTP and
+websockets, this is usually very easy. A couple of notes:
+
+- Any user who has access to Gorilla effectively has access to the server machine with the privileges of the JVM
+  process. So, you will want to ensure that only trusted users have access. Gorilla does not offer any built-in 
+  authentication mechanism. It is recommended to either use a reverse-proxy, network-level controls, or access through
+  ssh tunnels (see next point).
+- In the case there is a firewall or proxy between your browser and a remote Gorilla server, it might be possible that
+  the websocket connection to the Gorilla repl is blocked. One solution to this is to tunnel access over SSH, which can
+  also be used as a user authentication method.
+- By default Gorilla does not bind to external IPs, so is only accessible from the server itself. If you want to expose
+  Gorilla to the network, then see the advanced configuration options below.
+
+
 ### Advanced configuration
 
 You can see what can be customised in Gorilla on the [configuration](/configuration.html) page.
