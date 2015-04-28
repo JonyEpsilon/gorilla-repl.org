@@ -60,6 +60,7 @@ In order of first commit, code and documentation contributors to date are:
 - @kurtharriger
 - @dasmoth
 - @behrica
+- @tbrx
 
 There are many others who have filed bugs, requested features, and contributed to the discussion. They've all made
 Gorilla REPL better in one way or another!
