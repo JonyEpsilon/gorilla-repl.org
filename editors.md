@@ -19,9 +19,6 @@ that Gorilla started the nREPL server on.
 It's convenient to run Gorilla from within IntelliJ. You can very easily do this by making a "Leiningen" run
 configuration, that starts in your project's directory, to run the `gorilla` task.
 
-**Coming soon.** You can open worksheets from within Gorilla using the "Gorilla REPL helper" IntelliJ plugin. It will
-auto-detect the port of the Gorilla server running in the project.
-
 There are a [couple of videos](/videos.html) that go through in detail setting up Leiningen, Gorilla and Cursive to
 work well together.
 
