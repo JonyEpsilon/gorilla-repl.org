@@ -101,6 +101,9 @@ might think). The one exception is the autocomplete command which doesn't work o
 steals `ctrl+space` for its own use, [somewhat controversially](https://bugzilla.mozilla.org/show_bug.cgi?id=435164).
 You can instead use `ctrl+g ctrl+a` if you're using Firefox.
 
+Note that you can auto-indent code in the editor by selecting it and hitting shift-tab. This can be a nice way to spot
+syntax errors :-)
+
 ### Making notes
 
 So far we've used Gorilla as a fancy REPL, but we can also think of it as a tool for making documents, which we call
