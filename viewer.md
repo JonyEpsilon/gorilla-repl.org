@@ -24,6 +24,14 @@ http://viewer.gorilla-repl.org/view.html?source=gist&id=<>&filename=<>
 If the gist only has a single file in it, then you can omit the filename parameter.
 [Example](http://viewer.gorilla-repl.org/view.html?source=gist&id=5baef8ac0f42706e4940)
 
+If you'd prefer to host the content on BitBucket then can construct a URL like:
+
+```
+http://viewer.gorilla-repl.org/view.html?source=bitbucket&user=<>&repo=<>&path=<>
+```
+
+where the <>s have the same meaning as above.
+
 
 ## Limitations
 
