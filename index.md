@@ -46,7 +46,7 @@ for a big change drop me an email so we can coordinate work.
 
 In order of first commit, code and documentation contributors to date are:
 
-- @JonyEpsilon
+- @jonyepsilon
 - @maio
 - @cldellow
 - @scottdw
@@ -65,7 +65,7 @@ In order of first commit, code and documentation contributors to date are:
 - @mattexx
 - @dtolpin
 - @mikeivanov
-- @LispyAriaro
+- @lispyariaro
 
 There are many others who have filed bugs, requested features, and contributed to the discussion. They've all made
 Gorilla REPL better in one way or another!
