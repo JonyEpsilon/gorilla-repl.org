@@ -24,16 +24,16 @@ work well together.
 
 ## Emacs and CIDER
 
-Should you prefer more of an antique editing experience, then Gorilla also works well with Emacs :-) You can connect
-CIDER and Gorilla to the same nREPL server and enjoy editing your code in emacs while editing your notebooks in
+Should you prefer more of an vintage editing experience, then Gorilla also works well with Emacs :-) You can connect
+[CIDER](https://github.com/clojure-emacs/cider) and Gorilla to the same nREPL server and enjoy editing your code in Emacs while editing your notebooks in
 Gorilla.
 
 The only thing to note is that you must start the nREPL server by running `lein gorilla`, and then connect to
-this from emacs with `cider-connect`. Gorilla will write out a `.nrepl-port` file in the standard place, so CIDER will
+this from Emacs with `cider-connect`. Gorilla will write out a `.nrepl-port` file in the standard place, so CIDER will
 be able to autodetect the port. It's necessary to do it this way round because Gorilla needs to insert its own rendering
 middleware in to the nREPL server. By default Gorilla will insert a recent version of the `cider-nrepl` middleware, but
 you can override this with a version of your choosing by adding `cider-nrepl` to your `:plugins` vector in the usual
-way (see the CIDER readme for more details). Note that forcing a `cider-nrepl` version of < "0.8.1" will break Gorilla's
+way (see the CIDER [readme](https://github.com/clojure-emacs/cider/blob/master/README.md) for more details). Note that forcing a `cider-nrepl` version of < "0.8.1" will break Gorilla's
 autocompletion.
 
 ## Vim
