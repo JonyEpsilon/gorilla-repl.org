@@ -24,7 +24,7 @@ work well together.
 
 ## Emacs and CIDER
 
-Should you prefer more of an vintage editing experience, then Gorilla also works well with Emacs :-) You can connect
+Should you prefer more of a vintage editing experience, then Gorilla also works well with Emacs :-) You can connect
 [CIDER](https://github.com/clojure-emacs/cider) and Gorilla to the same nREPL server and enjoy editing your code in Emacs while editing your notebooks in
 Gorilla.
 
