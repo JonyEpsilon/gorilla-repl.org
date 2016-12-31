@@ -3,9 +3,7 @@ layout: page
 title: Secrets of Gorilla Repl
 ---
 
-Secrets of Gorilla REPL
-=======================
-via Lee Spector (lspector@hampshire.edu), revised October 19, 2016
+Sourced from Lee Spector (lspector@hampshire.edu), revised October 19, 2016
 
 ----
 This document provides tips on using the combination of Leiningen (<http://leiningen.org>) and Gorilla REPL (<http://gorilla-repl.org>) **as a complete Clojure programming environment**. The key features for using Gorilla as a complete environment are:
