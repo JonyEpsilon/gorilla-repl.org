@@ -6,7 +6,8 @@ title: Secrets of Gorilla Repl
 Sourced from Lee Spector (lspector@hampshire.edu), revised October 19, 2016
 
 ----
-This document provides tips on using the combination of Leiningen (<http://leiningen.org>) and Gorilla REPL (<http://gorilla-repl.org>) **as a complete Clojure programming environment**. The key features for using Gorilla as a complete environment are:
+This document was written for university students at the Hampshire College taking a course where they likely use Clojure for the first time. It provides
+**a complete Clojure programming environment**. You might find it useful if you're just getting started with Clojure, as it provides an easy workflow for development. The key features for using Gorilla as a complete environment are:
 
 - Open any `.clj`, `.cljs`, `.cljc`, or `.hl` file. If the file does not already have Gorilla REPL worksheet markup, it will appear as a worksheet with the entire contents of the file in a single input cell.
 

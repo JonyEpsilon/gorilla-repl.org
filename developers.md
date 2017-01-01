@@ -30,6 +30,7 @@ unmerged branches that will definitely no longer be used should also be deleted.
   - project.clj of gorilla-repl.
   - project.clj of lein-gorilla (two places).
   - dependency injection code in core namespace of lein-gorilla.
+  - project.clj in gorilla-template resources folder
 
 ## To publish a release
 
