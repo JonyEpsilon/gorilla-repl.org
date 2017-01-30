@@ -15,6 +15,7 @@ That's it - your worksheet is now available online!
 [This link](http://viewer.gorilla-repl.org/view.html?source=github&user=JonyEpsilon&repo=gorilla-test&path=ws/graph-examples.clj)
 is an example of a shared Gorilla worksheet.
 
+
 You can also share worksheets in GitHub gists. In this case just use the link:
 
 ```
@@ -47,6 +48,7 @@ any dependencies. This way, someone can easily clone your project and run your w
 - When you share a project, make sure it's got a plugin dependency on `lein-gorilla` (it might not if you have installed
 Gorilla globally in your `profiles.clj` file). If you do this then someone who clones your project to run your worksheet
 will be able to simply run `lein gorilla` from the project directory and have it work.
+- The path variable assumes the file is in the *master* branch. To access a file in a different branch, add the suffix "?ref=mybranch" to the path variable. For example, "path=ws/graph-examples.clj?ref=mybranch" if the file is in a branch named  *mybranch* instead of *master*.
 
 Of course, you don't need to follow those tips. But it's definitely good to make it as easy as possible for people to
 not just view your worksheets, but to copy them and run them themselves. The more the merrier you know!
