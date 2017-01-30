@@ -30,6 +30,7 @@ unmerged branches that will definitely no longer be used should also be deleted.
   - project.clj of gorilla-repl.
   - project.clj of lein-gorilla (two places).
   - dependency injection code in core namespace of lein-gorilla.
+  - project.clj in gorilla-template resources folder
 
 ## To publish a release
 
@@ -40,4 +41,5 @@ unmerged branches that will definitely no longer be used should also be deleted.
 - `lein deploy clojars`, first gorilla-repl and then lein-gorilla, and promote.
 - Switch back to develop before you forget. (Both repos).
 - Update the version in start.md of gorilla-repl.org (two places).
-- Update the `latest-version` var on the updates web-page.
+- Update the `latest-version` file.
+- Publish a new version of the viewer.
